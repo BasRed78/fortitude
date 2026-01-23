@@ -470,6 +470,31 @@
             margin-top: 1.25rem;
         }
         
+        .form-footer a {
+            color: var(--gray-dark);
+        }
+        
+        .checkbox-group {
+            margin-top: 0.5rem;
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            cursor: pointer;
+        }
+        
+        .checkbox-label input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            margin-top: 2px;
+            flex-shrink: 0;
+            cursor: pointer;
+        }
+        
         .success-message {
             display: none;
             text-align: center;
@@ -882,9 +907,16 @@
                             <textarea id="bio" name="bio" required placeholder=""></textarea>
                         </div>
                         
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy-consent" name="privacy-consent" required>
+                                <span>Ik ga akkoord met het delen van bovenstaande gegevens met de overige deelnemers van de Fortitude Field Lab. Gegevens worden na afloop van het evenement verwijderd. <span class="required">*</span></span>
+                            </label>
+                        </div>
+                        
                         <button type="submit" class="submit-btn">Versturen</button>
                         
-                        <p class="form-footer">Je gegevens worden alleen gedeeld met andere Field Lab deelnemers.</p>
+                        <p class="form-footer">Vragen over je gegevens? Neem contact op via <a href="mailto:info@ffortfoundation.nl">info@ffortfoundation.nl</a></p>
                     </form>
                     
                     <div class="success-message" id="success-message">
