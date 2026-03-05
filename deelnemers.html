@@ -761,7 +761,7 @@
                         
                         <button type="submit" class="submit-btn">Versturen</button>
                         
-                        <p class="form-footer">Vragen over je gegevens? Neem contact op via <a href="mailto:registratie@eventsincompany.nl">registratie@eventsincompany.nl</a></p>
+                        <p class="form-footer">Vragen over je gegevens? Neem contact op via <a href="mailto:registratie@eventsincompany.nl">registratie@theeventscompany.nl</a></p>
                     </form>
                     
                     <div class="success-message" id="success-message">
@@ -800,7 +800,7 @@
         </div>
     </div>
     
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Tabs
         document.querySelectorAll('.tab').forEach(tab => {
             tab.addEventListener('click', () => {
@@ -931,4 +931,12 @@
                 loadDeelnemers();
                 
             } catch (error) {
-                console.error
+                console.error('Fout bij opslaan:', error);
+                alert('Er ging iets mis bij het versturen. Probeer het opnieuw.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Versturen';
+            }
+        });
+    </script>
+</body>
+</html>
