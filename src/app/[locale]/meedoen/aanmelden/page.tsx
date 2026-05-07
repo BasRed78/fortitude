@@ -54,9 +54,11 @@ export default function AanmeldenPage() {
                 Fortitude wordt gebouwd vanuit samenwerking. We ontwikkelen
                 initiatieven die aansluiten bij wat er werkelijk speelt, mede
                 gemaakt door mensen die er middenin zitten of dichtbij staan.
-                Of je nou zelf AYA bent, iemand kent, professioneel betrokken
-                bent of op een andere manier wil bijdragen. We horen graag van
-                je via onderstaand formulier.
+              </p>
+              <p className="mt-4 text-[0.95rem] leading-[1.75] text-[#0A0A0A]/85 md:text-[1.05rem]">
+                Of je nou zelf AYA bent, een jonge man met kanker kent,
+                professional bent of op een andere manier wil meedoen. Vul het
+                formulier hieronder in.
               </p>
             </div>
 

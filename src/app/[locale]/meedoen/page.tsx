@@ -79,10 +79,9 @@ export default function MeedoenPage() {
                 Goed dat je ons gevonden hebt via het SPACE4AYA congres.
               </p>
               <p className="mt-4 text-[0.95rem] leading-[1.75] text-[#0A0A0A]/85 md:text-[1.05rem]">
-                Onze missie is om geen jonge man met kanker er alleen voor te
-                laten staan. Dat zijn ervaring herkend wordt, dat er ruimte is
-                voor wat hij voelt en denkt, en dat hij ondersteuning vindt die
-                past bij wie hij is en waar hij in zijn leven staat.
+                Geen enkele jonge man met kanker hoort er alleen voor te staan.
+                Dat zijn ervaring gezien wordt, dat er ruimte is voor wat hij
+                voelt, dat hij steun vindt die bij hem past. Daar werken we aan.
               </p>
             </div>
 
