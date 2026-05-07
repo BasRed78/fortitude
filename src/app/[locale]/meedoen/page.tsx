@@ -31,7 +31,7 @@ export default function MeedoenPage() {
       <div className="relative z-10 flex min-h-screen flex-col p-8 md:p-10">
         <main className="flex flex-1 items-start justify-center pt-4 md:pt-8">
           <div className="w-full max-w-[520px]">
-            <div className="mb-10 md:mb-12">
+            <div className="mb-24 md:mb-32">
               <Image
                 src="/fortitude-wordmark.png"
                 alt="FORTITUDE - for young men living through and beyond cancer"

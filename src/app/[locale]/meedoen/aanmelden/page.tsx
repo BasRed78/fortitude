@@ -23,14 +23,8 @@ export default function AanmeldenPage() {
         color: '#0A0A0A',
       }}
     >
-      <div className="relative z-10 flex min-h-screen flex-col justify-between p-8 md:p-10">
-        <header className="flex items-center justify-center">
-          <span className="text-xs font-medium uppercase tracking-[0.1em] text-[#0A0A0A]/70">
-            Powered by F|Fort Foundation
-          </span>
-        </header>
-
-        <main className="flex flex-1 items-start justify-center py-16 md:py-20">
+      <div className="relative z-10 flex min-h-screen flex-col p-8 md:p-10">
+        <main className="flex flex-1 items-start justify-center pt-4 md:pt-8">
           <div className="w-full max-w-[520px]">
             <div className="mb-12 md:mb-14">
               <Link
@@ -78,6 +72,12 @@ export default function AanmeldenPage() {
             </div>
           </div>
         </main>
+
+        <footer className="flex items-center justify-center pt-12">
+          <span className="text-[0.65rem] font-medium uppercase tracking-[0.1em] text-[#0A0A0A]/60">
+            Powered by F|Fort Foundation
+          </span>
+        </footer>
       </div>
     </div>
   );
