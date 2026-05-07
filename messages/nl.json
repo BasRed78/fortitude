@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Fortitude",
+    "description": "Voor jonge mannen die leven met en na kanker"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "initiatives": "Initiatieven",
+    "fieldLabs": "Field Labs",
+    "goos": "GOOS.",
+    "community": "Community",
+    "press": "Pers",
+    "support": "Steun Fortitude",
+    "contact": "Contact"
+  },
+  "footer": {
+    "payoff": "voor jonge mannen die leven met en na kanker",
+    "foundation": "Een initiatief van F|Fort Foundation",
+    "copyright": "\u00a9 {year} F|Fort Foundation. Alle rechten voorbehouden."
+  },
+  "languageToggle": {
+    "switchTo": "EN",
+    "label": "Switch to English"
+  },
+  "home": {
+    "hero": {
+      "headline": "Voor jonge mannen die leven met en na kanker",
+      "intro": "[Bas to supply]"
+    }
+  },
+  "about": {
+    "title": "Over ons"
+  },
+  "initiatives": {
+    "title": "Initiatieven",
+    "fieldLabs": {
+      "title": "Field Labs",
+      "summary": "[Bas to supply]"
+    },
+    "goos": {
+      "title": "GOOS.",
+      "summary": "[Bas to supply]"
+    },
+    "community": {
+      "title": "Community",
+      "summary": "[Bas to supply]"
+    }
+  },
+  "press": {
+    "title": "Pers"
+  },
+  "support": {
+    "title": "Steun Fortitude"
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}

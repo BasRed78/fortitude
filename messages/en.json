@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "title": "Fortitude",
+    "description": "For young men living through and beyond cancer"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "initiatives": "Initiatives",
+    "fieldLabs": "Field Labs",
+    "goos": "GOOS.",
+    "community": "Community",
+    "press": "Press",
+    "support": "Support Fortitude",
+    "contact": "Contact"
+  },
+  "footer": {
+    "payoff": "for young men living through and beyond cancer",
+    "foundation": "An initiative of F|Fort Foundation",
+    "copyright": "\u00a9 {year} F|Fort Foundation. All rights reserved."
+  },
+  "languageToggle": {
+    "switchTo": "NL",
+    "label": "Schakel naar Nederlands"
+  },
+  "home": {
+    "hero": {
+      "headline": "For young men living through and beyond cancer",
+      "intro": "[Bas to supply]"
+    }
+  },
+  "about": {
+    "title": "About us"
+  },
+  "initiatives": {
+    "title": "Initiatives",
+    "fieldLabs": {
+      "title": "Field Labs",
+      "summary": "[Bas to supply]"
+    },
+    "goos": {
+      "title": "GOOS.",
+      "summary": "[Bas to supply]"
+    },
+    "community": {
+      "title": "Community",
+      "summary": "[Bas to supply]"
+    }
+  },
+  "press": {
+    "title": "Press"
+  },
+  "support": {
+    "title": "Support Fortitude"
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}
