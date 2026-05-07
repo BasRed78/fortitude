@@ -50,7 +50,8 @@ export default function MeedoenPage() {
                 className="mt-3 text-[2rem] leading-[1.05] tracking-tight text-[#0A0A0A] md:text-[2.75rem]"
                 style={{ fontFamily: 'var(--font-instrument-serif)' }}
               >
-                Geen enkele jonge man met kanker hoort er alleen voor te staan.
+                Geen enkele jonge man met kanker hoort er{' '}
+                <em className="italic">alleen voor te staan</em>.
               </h1>
               <p className="mt-5 text-[0.95rem] leading-[1.6] text-[#0A0A0A]/85 md:text-[1.05rem]">
                 Dat zijn ervaring gezien wordt, dat er ruimte is voor wat hij
@@ -66,31 +67,6 @@ export default function MeedoenPage() {
               </div>
             </section>
 
-            <div className="mb-8 border-t border-[#0A0A0A]/20 pt-8">
-              <span className="text-base font-medium tracking-[0.02em] text-[#0A0A0A] md:text-lg">
-                for·ti·tude
-              </span>
-              <span className="ml-2 text-sm text-[#0A0A0A]/60 md:text-base">
-                /ˈfɔːtɪtjuːd/
-              </span>
-              <span className="mt-1 block text-sm italic text-[#0A0A0A]/70 md:text-[0.9rem]">
-                zelfstandig naamwoord
-              </span>
-              <p className="mt-2 text-[0.95rem] text-[#0A0A0A]/85 md:text-[1.05rem]">
-                Moed en innerlijke kracht in het omgaan met pijn of tegenslag.
-              </p>
-            </div>
-
-            <div className="border-t border-[#0A0A0A]/20 pt-8">
-              <p className="text-[0.95rem] leading-[1.75] text-[#0A0A0A]/85 md:text-[1.05rem]">
-                In Nederland leven zo&apos;n 32.000 jongvolwassenen met kanker.
-                Jonge mannen vallen daarbij op: ze delen minder snel wat er
-                speelt, zoeken later hulp, en bestaande ondersteuning sluit vaak
-                niet aan. Fortitude is er voor hen. Een programma voor jonge
-                mannen (18&ndash;39) met en na kanker. Voor wie het
-                standaardverhaal niet past.
-              </p>
-            </div>
           </div>
         </main>
 
