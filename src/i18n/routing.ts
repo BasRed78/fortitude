@@ -4,5 +4,8 @@ import { locales, defaultLocale } from './config';
 export const routing = defineRouting({
   locales,
   defaultLocale,
-  localePrefix: 'as-needed', // NL at root, EN at /en/*
+  localePrefix: 'never', // NL-only: never prefix locale
+  localeDetection: false, // ignore browser Accept-Language
 });
+
+export type AppLocale = (typeof locales)[number];

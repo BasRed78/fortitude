@@ -20,15 +20,23 @@ const nextConfig: NextConfig = {
         destination: '/meedoen?bron=space4aya_2026',
         permanent: true,
       },
+      // Catch any leftover /en/* URLs from the previous bilingual config
+      // and route them back to their NL equivalents.
       {
-        source: '/en/congres',
-        destination: '/en/meedoen?bron=space4aya_2026',
+        source: '/en',
+        destination: '/',
         permanent: true,
       },
-      ...PARKED_PATHS.flatMap((source) => [
-        { source, destination: '/', permanent: false },
-        { source: `/en${source}`, destination: '/en', permanent: false },
-      ]),
+      {
+        source: '/en/:path*',
+        destination: '/:path*',
+        permanent: true,
+      },
+      ...PARKED_PATHS.map((source) => ({
+        source,
+        destination: '/',
+        permanent: false,
+      })),
     ];
   },
 };
