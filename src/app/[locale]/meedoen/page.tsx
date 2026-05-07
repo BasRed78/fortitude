@@ -75,7 +75,7 @@ export default function MeedoenPage() {
             </div>
 
             <div className="mb-10">
-              <p className="text-[0.95rem] font-semibold leading-[1.75] text-[#0A0A0A] md:text-[1.05rem]">
+              <p className="text-xl font-semibold leading-snug text-[#0A0A0A] md:text-2xl">
                 Goed dat je ons gevonden hebt via het SPACE4AYA congres.
               </p>
               <p className="mt-4 text-[0.95rem] leading-[1.75] text-[#0A0A0A]/85 md:text-[1.05rem]">
