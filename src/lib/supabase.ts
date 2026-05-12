@@ -47,4 +47,5 @@ export interface CongresAanmelding {
   verbinding: Verbinding[];
   bijdrage?: string;
   aangemeld_via?: string;
+  interesse_mia_rapport?: boolean;
 }

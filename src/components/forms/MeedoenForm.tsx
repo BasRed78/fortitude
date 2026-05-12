@@ -31,6 +31,7 @@ const schema = z.object({
     .array(z.enum(verbindingValues))
     .min(1, 'Kies ten minste één optie'),
   bijdrage: z.string().max(2000).optional(),
+  interesse_mia_rapport: z.boolean().optional(),
   consent_given: z.boolean().refine((v) => v === true, {
     message: 'Toestemming is vereist',
   }),
@@ -64,7 +65,11 @@ export default function MeedoenForm() {
     formState: { errors, isSubmitting },
   } = useForm<FormData>({
     resolver: zodResolver(schema),
-    defaultValues: { consent_given: false, verbinding: [] },
+    defaultValues: {
+      consent_given: false,
+      verbinding: [],
+      interesse_mia_rapport: false,
+    },
   });
 
   async function onSubmit(data: FormData) {
@@ -170,6 +175,19 @@ export default function MeedoenForm() {
           {...register('bijdrage')}
           className={`${inputClass} resize-y leading-relaxed`}
         />
+      </div>
+
+      <div className="flex items-start gap-2.5">
+        <input
+          id="m-mia"
+          type="checkbox"
+          {...register('interesse_mia_rapport')}
+          className="mt-0.5 h-3.5 w-3.5 shrink-0 accent-[#0A0A0A]"
+        />
+        <label htmlFor="m-mia" className="text-xs leading-relaxed text-[#0A0A0A]/75">
+          Ik ontvang graag het Masculinities in Action-onderzoeksrapport zodra
+          het beschikbaar is.
+        </label>
       </div>
 
       <div className="flex items-start gap-2.5">

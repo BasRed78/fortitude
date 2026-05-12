@@ -17,6 +17,7 @@ const schema = z.object({
   verbinding: z.array(z.enum(verbindingValues)).min(1).max(verbindingValues.length),
   bijdrage: z.string().max(2000).optional(),
   aangemeld_via: z.string().max(60).optional(),
+  interesse_mia_rapport: z.boolean().optional(),
   consent_given: z.boolean().refine((v) => v === true),
   website: z.string().max(0).optional(),
 });
@@ -75,6 +76,7 @@ export async function POST(request: NextRequest) {
       verbinding: [...parsed.data.verbinding],
       bijdrage: parsed.data.bijdrage,
       aangemeld_via: parsed.data.aangemeld_via || 'space4aya_2026',
+      interesse_mia_rapport: parsed.data.interesse_mia_rapport ?? false,
     };
 
     if (!supabaseAdmin) {
